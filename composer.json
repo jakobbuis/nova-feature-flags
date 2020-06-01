@@ -1,0 +1,25 @@
+{
+    "name": "jakobbuis/nova-feature-flags",
+    "description": "Control feature flags from Nova",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jakobbuis\\NovaFeatureFlags\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jakobbuis\\NovaFeatureFlags\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
