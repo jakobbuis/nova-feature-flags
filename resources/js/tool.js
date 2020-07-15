@@ -3,7 +3,7 @@ Nova.booting((Vue, router, store) => {
     {
       name: 'nova-feature-flags',
       path: '/nova-feature-flags',
-      component: require('./components/Tool'),
+      component: require('./components/Flags'),
     },
   ])
 })
